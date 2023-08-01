@@ -1,0 +1,9 @@
+name: segregate
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      - wandb
+      - scikit-learn==0.24.1
+      - pandas==1.2.3

@@ -1,0 +1,9 @@
+name: preprocess
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      - wandb
+      - pyarrow
+      - pandas==1.2.3

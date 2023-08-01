@@ -1,0 +1,10 @@
+name: check_data
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      - wandb
+      - pandas
+      - pytest
+      - scipy

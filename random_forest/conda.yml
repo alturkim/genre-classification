@@ -1,0 +1,15 @@
+name: random_forest
+channels:
+  - defaults
+dependencies:
+  - python=3.9.1
+  - pip
+  - pip:
+      - wandb
+      - omegaconf==2.0.6
+      - pandas==1.2.3
+      - scikit-learn==0.24.1
+      - matplotlib
+      - plotly==4.4.1
+      - pillow==8.1.2
+      - mlflow

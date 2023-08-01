@@ -1,0 +1,8 @@
+name: download
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      - wandb
+      - requests
